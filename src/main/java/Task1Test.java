@@ -6,9 +6,13 @@ public class Task1Test {
 
     @Test
     public void test() {
-        Task1 num1 = new Task1(4, "3333333");
-        Task1 num2 = new Task1(4, "55555555");
-        System.out.printf(num1.plus(num2));
+        Task1 num1 = new Task1(1, "48");
+        Task1 num2 = new Task1(1, "75");
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num1.plus(num2));
+        System.out.println(num1.minus(num2));
+        System.out.println(num1.multiply(num2));
     }
 
 }
